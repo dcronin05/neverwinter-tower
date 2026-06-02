@@ -46,7 +46,7 @@
 [ruleset]
 	always-roll-max-hitpoints-on-levelup = false
 	difficulty = 1
-	enforce-legal-characters = true
+	enforce-legal-characters = false
 	hide-hitpoints-gained-on-levelup = false
 	item-level-restrictions = false
 	max-character-level = 40
@@ -118,7 +118,7 @@
 			max-memory-usage = 0.12500000000000000
 	[server.vault]
 		backup-server-characters = false
-		by-player-name = false
+		by-player-name = true
 		mode = 0
 		sticky-player-names = false
 		suppress-base = false

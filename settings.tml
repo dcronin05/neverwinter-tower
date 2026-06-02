@@ -1,8 +1,3 @@
-# ==============================================================================
-# AI DISCLAIMER
-# This configuration file was programmatically configured by Antigravity, an AI assistant.
-# ==============================================================================
-
 [campaigndb]
 	[campaigndb.storage]
 		[campaigndb.storage.compression]
@@ -124,7 +119,7 @@
 	[server.vault]
 		backup-server-characters = false
 		by-player-name = false
-		mode = 1
+		mode = 0
 		sticky-player-names = false
 		suppress-base = false
 [sqlite3]

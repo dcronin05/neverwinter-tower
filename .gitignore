@@ -6,6 +6,7 @@ tempclient/
 nwnpid
 cryptographic_secret
 database/
+nwsync/
 
 # Python Virtual Environment
 .venv/

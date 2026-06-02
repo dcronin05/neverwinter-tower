@@ -52,7 +52,7 @@ def edit_gff_name(input_path, output_path, new_first_name, new_last_name):
         # LanguageID (int32): 0
         # StringLength (uint32): len(encoded)
         # StringData: encoded bytes
-        loc_data = struct.pack('<iIiiI', -1, 1, 0, 0, len(encoded)) + encoded
+        loc_data = struct.pack('<iIiI', -1, 1, 0, len(encoded)) + encoded
         # Prepend Size (uint32) of the loc_data block
         size = len(loc_data)
         return struct.pack('<I', size) + loc_data

@@ -5,7 +5,7 @@ Welcome to **Neverwinter Tower**, a programmatically managed dedicated server pr
 ---
 
 ## Project Structure
-* `modules/`: Contains the `.mod` files loaded by the server. Currently loaded: `Neverwinter Chess.mod`.
+* `modules/`: Contains the `.mod` files loaded by the server. Currently loaded: `Prelude.mod` (testing).
 * `servervault/`: Holds the server-side player character sheets (`.bic` files).
   * `UXKGK6WK/`: CD-key folder for player Daniel (Khaun) containing:
     * `daniel.bic`: A Level 1 Fighter named **Daniel**.

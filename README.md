@@ -34,6 +34,18 @@ To create or rename a server vault character sheet from a pregenerated `.bic` fi
 ```powershell
 .venv\Scripts\python tools\edit_char_name.py <input_path> <output_path> <first_name> [last_name]
 ```
+*(Note: A bug was fixed in this utility where an extra 4-byte padding field was being generated in the LocString structure. Removing this prevents structural alignment corruption in GFF files).*
+
+### Troubleshooting Character Sheets
+We have created two diagnostic utilities in the `tools/` folder:
+1. **`read_char_name.py`**: Reads and prints the first and last names stored in a `.bic` GFF sheet:
+   ```powershell
+   .venv\Scripts\python tools\read_char_name.py
+   ```
+2. **`check_gff.py`**: Runs structural checks verifying signatures, offsets, block sizes, and integrity of character files:
+   ```powershell
+   .venv\Scripts\python tools\check_gff.py
+   ```
 
 ### Git Branching Workflow
 We version this repository using a strict development branch strategy:

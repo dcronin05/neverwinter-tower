@@ -1,3 +1,9 @@
+# ==============================================================================
+# AI DISCLAIMER
+# This file was programmatically generated and edited by Antigravity, an AI assistant.
+# Please review the code for security and compatibility before production use.
+# ==============================================================================
+
 import struct
 import sys
 import os

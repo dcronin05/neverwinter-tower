@@ -7,9 +7,8 @@ Welcome to **Neverwinter Tower**, a programmatically managed dedicated server pr
 ## Project Structure
 * `modules/`: Contains the `.mod` files loaded by the server. Currently loaded: `Neverwinter Chess.mod`.
 * `servervault/`: Holds the server-side player character sheets (`.bic` files).
-  * `servervault/khaun/`: Stash for player **Khaun** containing:
-    * `daniel.bic`: A Level 1 Fighter named **Daniel**.
-    * `neil.bic`: A Level 1 Rogue named **Neil**.
+  * `daniel.bic`: A Level 1 Fighter named **Daniel** (globally selectable by anyone).
+  * `neil.bic`: A Level 1 Rogue named **Neil** (globally selectable by anyone).
 * `tools/`: Python utilities for managing raw GFF files.
   * `edit_char_name.py`: A pure Python utility that parses binary GFF files and renames `FirstName`/`LastName` values in LocStrings.
 * `settings.tml`: The primary server configuration settings.

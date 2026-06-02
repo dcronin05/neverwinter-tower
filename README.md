@@ -46,3 +46,8 @@ We version this repository using a strict development branch strategy:
    git checkout main
    git merge feat/your-feature --no-ff -m "merge: explanation of features integrated"
    ```
+
+---
+
+## Repository
+This project is versioned on GitHub: [dcronin05/neverwinter-tower](https://github.com/dcronin05/neverwinter-tower)

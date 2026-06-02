@@ -1,0 +1,17 @@
+# NWN Server Local runtime files
+cache/
+logs/
+temp/
+tempclient/
+nwnpid
+cryptographic_secret
+database/
+
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local backup files
+*.bak
+*.tmp
